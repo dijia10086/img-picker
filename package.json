@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:script": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./"
   },
   "keywords": [],
   "author": "Di Jia",
